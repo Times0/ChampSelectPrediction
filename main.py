@@ -35,3 +35,5 @@ for player_name, player_puid in players_dict.items():
 print(last_game_ids)
 
 lol_watcher.summoner.by_name(REGION, "Times")
+
+lol_watcher.match.by_id("EUW1", "EUW1_6810035292")
